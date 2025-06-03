@@ -1,7 +1,7 @@
 .ReportTable {
   width: 100%; /* Or a specific width if needed */
   border-collapse: collapse; /* Removes spacing between table cells */
-  font-family: 'Kaushan Script', cursive;
+  font-family: 'Roboto', sans-serif;
 }
 
 table {

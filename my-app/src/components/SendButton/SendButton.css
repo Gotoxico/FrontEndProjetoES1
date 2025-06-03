@@ -8,7 +8,7 @@
   cursor: pointer;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2); /* Subtle shadow */
   transition: all 0.3s ease; /* Smooth transition for hover effect */
-  font-family: 'Kaushan Script', cursive;
+  font-family: 'Roboto', sans-serif;
 }
 
 .SendButton:hover {

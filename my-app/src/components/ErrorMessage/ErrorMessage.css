@@ -8,6 +8,6 @@
   box-shadow: 0 3px 6px rgba(0, 0, 0, 0.4); /* Stronger shadow for emphasis */
   margin-bottom: 20px; /* Add some spacing below the box */
   width: fit-content;
-  font-family: 'Kaushan Script', cursive;
+  font-family: 'Roboto', sans-serif;
   margin: 10px auto;
 }

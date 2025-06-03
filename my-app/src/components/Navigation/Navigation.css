@@ -1,5 +1,20 @@
 .navigation {
-    font-family: 'Kaushan Script', cursive;
+    font-family: 'Roboto', sans-serif;
+}
+
+.left-item {
+  margin-right: 20px;
+}
+
+.right-item {
+  margin-left: 20px;
+}
+
+.center-item {
+  margin: 0 auto;
+  font-size: 1.5em;
+  font-weight: bold;
+  color: #EFEEEA;
 }
 
 .navigation ul {
@@ -8,11 +23,12 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  gap: 40px;
+  list-style: none;
+  width: 100%;
 }
 
 .navigation li {
-  margin: 0 40px;
+  margin: 0 0px;
 }
 
 .navigation a {
@@ -23,5 +39,63 @@
 }
 
 .navigation a:hover {
+  color: #273F4F; 
+}
+
+.BotaoSair {
+  margin-right: 0;
+}
+
+.greeting {
+    color: #EFEEEA;
+    font-size: 2em;
+    font-weight: bold;
+    text-align: center;
+    margin: 0 20px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.insert-options {
+  position: relative;
+  display: inline-block; /* Important for the hover effect to work correctly */
+}
+
+.insert-employee-button {
+    background-color: #FE7743;
+    color: #EFEEEA;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    font-size: 1em;
+    margin-left: 20px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.option-list {
+  position: absolute;      /* Absolutely positioned to the parent */
+  top: 100%;
+  left: 0;    
+  background-color: #FE7743;
+  padding: 10px;
+  z-index: 1; /* Ensure it's on top of other elements */
+  border-radius: 10px;
+  width:100%;
+}
+
+.option-list ul {
+    list-style: none;
+    padding: 0;
+}
+
+.option-list li {
+    padding: 5px;
+    color: #EFEEEA;
+    cursor: pointer;
+    font-family: 'Roboto', sans-serif;
+    flex-direction: column;
+    display: flex;
+}
+
+.option-list li:hover {
   color: #273F4F; 
 }
